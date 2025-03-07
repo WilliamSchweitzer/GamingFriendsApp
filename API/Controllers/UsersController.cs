@@ -16,6 +16,7 @@ public class UsersController(DataContext context) : ControllerBase
         var users = await context.Users.ToListAsync ();
 
         return users;
+        // git test
     }
 
     [HttpGet("{id}")]
